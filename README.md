@@ -1,9 +1,9 @@
 # Project Bot for Discord!
 
-<h1>Desenvolvimento de bot para o discord com varias coisas aleatórias! (Development of a bot for discord with several random things!
-)</h1>
+- Desenvolvimento de bot para o discord com varias coisas aleatórias! (Development of a bot for discord with several random things!
+)
 
-<h2>Projeto com o intuito de me desenvolver e tentar facilitar o meu aprendizado. (Project in order to develop myself and try to facilitate my learning)</h2>
+- Projeto com o intuito de me desenvolver e tentar facilitar o meu aprendizado. (Project in order to develop myself and try to facilitate my learning)
 
 <div style={flex-direction: row}>
 
