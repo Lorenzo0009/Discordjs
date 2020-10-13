@@ -1,22 +1,11 @@
-const commando = require('discord.js-commando');
-const oneLine = require('common-tags').oneLine;
+module.exports = {
+	async run(client, message) {},
 
-module.exports = class ClassName extends commando.Command {
-    constructor(client) {
-        super(client, {
-            name: 'name',
-            aliases: [],
-            group: 'group',
-            memberName: 'name',
-            description: 'description',
-            details: oneLine`
-                description
-            `,
-            examples: ['example'],
-        })
-    }
-
-    async run(msg) {
-        
-    }
-}
+	get command() {
+		return {
+			name: 'oi',
+			description: 'Descrição do Comando',
+			usage: '!l oi',
+        };
+	},
+};
