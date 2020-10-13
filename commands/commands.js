@@ -1,11 +1,8 @@
 module.exports = {
-	async run(client, message) {},
-
-	get command() {
-		return {
-			name: 'oi',
-			description: 'Descrição do Comando',
-			usage: '!l oi',
-        };
-	},
+    name: 'ola',
+    description: 'prefix command',
+    execute(message) {
+        let str = 'hello world';
+        message.channel.send(str);
+    },
 };
